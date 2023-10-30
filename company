@@ -1,0 +1,27 @@
+class Company {
+  final String name;
+  final double rating;
+  final String website;
+  final String location;
+  final int employeeCount;
+  final String type;
+  final int foundedYear;
+  final String revenue;
+  final String industry;
+  final String competitors;
+  final String description;
+
+  Company({
+    this.name,
+    this.rating,
+    this.website,
+    this.location,
+    this.employeeCount,
+    this.type,
+    this.foundedYear,
+    this.revenue,
+    this.industry,
+    this.competitors,
+    this.description,
+  });
+}
